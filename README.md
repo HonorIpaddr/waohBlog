@@ -55,6 +55,16 @@ QQ：2365553250
 
 ## 工程目录说明
 
+```
+├─.vscode # vscode配置文件
+├─blogApp
+│  ├─blogCtrl # blog 控制器，post相关api
+│  ├─model # 定义实体类
+│  ├─userCtrl # user 控制器，登录，认证相关接口
+│  
+├─test # 测试
+```
+
 1. model 用于定义实体类
 2. blogApp 中为 整个 application
 3. blogCtrl、userCtrl 等按照业务划分的控制器，导出对应 api
@@ -72,6 +82,10 @@ QQ：2365553250
 - [ ] 友好的404
 - [ ] 统一的 responseBody 模板
 - [ ] 数据库生成实体类和基本增删改查接口
+- [ ] 测试，Tox
+- [ ] 集成日志
+- [ ] 定时线程
 - [ ] 身份认证
 - [ ] 从实体类生成数据库
+- [ ] 配套前端
 - [ ] 生成 docker image
